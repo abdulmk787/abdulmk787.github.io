@@ -17,45 +17,39 @@
 
 
 **Research Intern @ Centre for Cloud Computing and Big Data (_June 2021 - December 2021_)**
+[Publication](https://ieeexplore.ieee.org/abstract/document/10057909)
 -	Improved an open-source microservices simulator by changing loads from synthetic to more realistic loads using Dhrystone and STREAM benchmark to simulate higher workloads accurately in GoLang and C
 -	Introduced paper titled 'Scaling up a Cloud Microservices Simulator' at 2022 4th International Conference on Circuits, Control, Communication, and Computing
 
 
 ## Projects
-### Amazon Recommendation System using GNN
-
--	Created a heterogeneous graph based product recommendation system using Pytorch Geometric achieving an RMSE of 1.01
--	Compared multiple Convolutional layers such as SAGE and GAT while also providing explanations for each recommendation using Captum
+### Amazon Recommendation System using GNN (_September 2023 - December 2023_)
 [Code](https://github.com/aiden200/ARS)
 [Poster](https://github.com/abdulmk787/abdulmk787.github.io/assets/55476136/fc6d3604-4423-4a5c-ab71-03500e9d8c5e)
+[Paper](https://github.com/aiden200/ARS/blob/main/ML567___Final_Project.pdf)
+-	Created a heterogeneous graph based product recommendation system using Pytorch Geometric achieving an RMSE of 1.01
+-	Compared multiple Convolutional layers such as SAGE and GAT while also providing explanations for each recommendation using Captum
 
 
-### Decoding Physical and Cognitive Impacts of Particulate Matter Concentrations at Ultra-Fine Scales
-[Publication](https://www.mdpi.com/1424-8220/22/11/4240)
+### Interpretability of Joint Learning problem (_January 2022 - December 2022_)
+[Paper](https://drive.google.com/file/d/1W4Wlz0WaGXoGCzk6vpzkHKYFrZ_fqmvB/view?usp=sharing)
 
-Used **Matlab** to train over 100 machine learning models which estimated particulate matter concentrations based on a suite of over 300 biometric variables. We found biometric variables can be used to accurately estimate particulate matter concentrations at ultra-fine spatial scales with high fidelity (r2 = 0.91) and that smaller particles are better estimated than larger ones. Inferring environmental conditions solely from biometric measurements allows us to disentangle key interactions between the environment and the body.
+-	Developed a Joint model combining textual and conversation graph data to classify tweets during a natural disaster as informative or not, attaining an accuracy of 92%, an improvement of over 6% from individual models
+-	Leveraged interpretability tools, such as Unified Information Explainer and GNNExplainer, to deliver insight into model predictions by highlighting important words
+- Co-authored paper titled 'Interpretability of a Joint Learning Problem' was presented at the 2023 International Research Conference on IoT, Cloud and Data Science
 
-![Bike Study](/assets/img/bike_study.jpeg)
+### Predicting price direction of Bitcoin using Twitter and ML (_September 2021 - March 2022_)
+[Publication](https://ieeexplore.ieee.org/abstract/document/9988558)
 
-## Talks & Lectures
-- Causality: The new science of an old question - GSP Seminar, Fall 2021
-- Guest Lecture: Dimensionality Reduction - Big Data and Machine Learning for Scientific Discovery (PHYS 5336), Spring 2021
-- Guest Lecture: Fourier and Wavelet Transforms - Scientific Computing (PHYS 5315), Fall 2020
-- A Brief Introduction to Optimization - GSP Seminar, Fall 2019
-- Weeks of Welcome Poster Competition - UTD, Fall 2019
-- A Brief Introduction to Networks - GSP Seminar, Spring 2019
+-	Conducted an analysis of Bitcoin's technical indicators and daily sentiments on Twitter to predict price changes
+-	Implemented and compared performance of various models as a team, including hybrid deep learning models such as CNN GRU, accomplishing a maximum accuracy of 60% (CNN GRU)
+-	Co-authored paper on findings at the 2022 IEEE 2nd International Conference on Data Science and Computer Application and published in IEEE Xplore
 
-- [Data Science YouTube](https://www.youtube.com/channel/UCa9gErQ9AE5jT2DZLjXBIdA)
+### Sentiment Analysis of tweets using Streaming Spark (_September 2021-December 2021_)
+[Code](https://github.com/rithikashankar/BD_007_143__190_387/tree/main)
+-	Analysed and performed sentiment analysis of 1.6 million tweets streamed in batches to Spark framework using incremental techniques, achieving an accuracy of 80%
+-	Performed unsupervised classification using K means clustering in an incremental approach
 
 ## Publications
-1. Talebi S., Lary D.J., Wijeratne L. OH., and Lary, T. Modeling Autonomic Pupillary Responses from External Stimuli Using Machine Learning (2019). DOI: 10.26717/BJSTR.2019.20.003446
-2. Wijeratne, L.O.; Kiv, D.R.; Aker, A.R.; Talebi, S.; Lary, D.J. Using Machine Learning for the Calibration of Airborne Particulate Sensors. Sensors 2020, 20, 99.
-3. Lary, D.J.; Schaefer, D.; Waczak, J.; Aker, A.; Barbosa, A.; Wijeratne, L.O.H.; Talebi, S.; Fernando, B.; Sadler, J.; Lary, T.; Lary, M.D. Autonomous Learning of New Environments with a Robotic Team Employing Hyper-Spectral Remote Sensing, Comprehensive In-Situ Sensing and Machine Learning. Sensors 2021, 21, 2240. https://doi.org/10.3390/s21062240
-4. Zhang, Y.; Wijeratne, L.O.H.; Talebi, S.; Lary, D.J. Machine Learning for Light Sensor Calibration. Sensors 2021, 21, 6259. https://doi.org/10.3390/s21186259
-5. Talebi, S.; Waczak, J.; Fernando, B.; Sridhar, A.; Lary, D.J. Data-Driven EEG Band Discovery with Decision Trees. Preprints 2022, 2022030145 (doi: 10.20944/preprints202203.0145.v1).
-6. Fernando, B.A.; Sridhar, A.; Talebi, S.; Waczak, J.; Lary, D.J. Unsupervised Blink Detection Using Eye Aspect Ratio Values. Preprints 2022, 2022030200 (doi: 10.20944/preprints202203.0200.v1).
-7. Talebi, S. et al. Decoding Physical and Cognitive Impacts of PM Concentrations at Ultra-fine Scales, 29 March 2022, PREPRINT (Version 1) available at Research Square [https://doi.org/10.21203/rs.3.rs-1499191/v1]
-8. Lary, D.J. et al. (2022). Machine Learning, Big Data, and Spatial Tools: A Combination to Reveal Complex Facts That Impact Environmental Health. In: Faruque, F.S. (eds) Geospatial Technology for Human Well-Being and Health. Springer, Cham. https://doi.org/10.1007/978-3-030-71377-5_12
-9. Wijerante, L.O.H. et al. (2022). Advancement in Airborne Particulate Estimation Using Machine Learning. In: Faruque, F.S. (eds) Geospatial Technology for Human Well-Being and Health. Springer, Cham. https://doi.org/10.1007/978-3-030-71377-5_13
-
-- [Data Science Blog](https://medium.com/@shawhin)
+1. A. M. Kanji, I. Chaudhary, R. L. Shankar and G. Srinivasa, "Predicting the Price Direction of Bitcoin Using Twitter Data and Machine Learning," 2022 IEEE 2nd International Conference on Data Science and Computer Application (ICDSCA), Dalian, China, 2022, pp. 46-52, doi: 10.1109/ICDSCA56264.2022.9988558.
+2. A. M. Kanji, I. Chaudhary, R. L. Shankar and S. Kalambur, "Scaling Up a Cloud Microservices Simulator," 2022 4th International Conference on Circuits, Control, Communication and Computing (I4C), Bangalore, India, 2022, pp. 367-371, doi: 10.1109/I4C57141.2022.10057909.
