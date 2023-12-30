@@ -17,6 +17,7 @@
 
 
 **Research Intern @ Centre for Cloud Computing and Big Data (_June 2021 - December 2021_)**
+
 [Publication](https://ieeexplore.ieee.org/abstract/document/10057909)
 -	Improved an open-source microservices simulator by changing loads from synthetic to more realistic loads using Dhrystone and STREAM benchmark to simulate higher workloads accurately in GoLang and C
 -	Introduced paper titled 'Scaling up a Cloud Microservices Simulator' at 2022 4th International Conference on Circuits, Control, Communication, and Computing
