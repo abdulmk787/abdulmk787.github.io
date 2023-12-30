@@ -3,16 +3,18 @@
 #### Technical Skills: Python, Java, JavaScript, SQL, MongoDB, Tableau, Power BI, Apache Spark, Hadoop, PyTorch,PyTorch Geometric, TensorFlow, Scikit-Learn, NumPy, Pandas, NLTK, SpaCy, Keras
 
 ## Education
-**M.S., Computer Science | University of Southern California (_June 2023 - Present_)**			        		
-- Courses : eee
+**M.S., Computer Science | University of Southern California | GPA : 4.0 (_June 2023 - Present_)**			        		
+- Courses : Analysis of Algorithms, Machine Learning, Applied NLP, Deep Learning, Multimodal Probabilistic Learning of Human Communication
 
-**B.S., Physics | The University of Texas at Dallas (_May 2017_)**
-- Courses: dasld
+**B.Tech., Computer Science | PES University (_August 2019 - May 2023)**
+- Courses: Data Analytics, Big Data, Design and Analysis of Algorithms, Data Structures, Cloud Computing, Machine Intelligence, Algorithms for Information Retrieval, Database Systems, Statistics for Data Science
 
 ## Work Experience
-**Data Scientist @ Toyota Financial Services (_June 2022 - Present_)**
-- Uncovered and corrected missing step in production data pipeline which impacted over 70% of active accounts
-- Redeveloped loan originations model which resulted in 50% improvement in model performance and saving 1 million dollars in potential losses
+**Associate BI Developer @ DigiCert (_January 2023 - May 2023)**
+-	Migrated multiple dashboards from Microstrategy to Tableau and built ad-hoc dashboards as per stakeholder requirements
+-	Conducted account churn analysis using XGBoost in python to identify key variables and customer segments influencing customer churn
+-	Designed an interactive Tableau dashboard to provide actionable insights for retention strategies
+
 
 **Data Science Consultant @ Shawhin Talebi Ventures LLC (_December 2020 - Present_)**
 - Conducted data collection, processing, and analysis for novel study evaluating the impact of over 300 biometrics variables on human performance in hyper-realistic, live-fire training scenarios
