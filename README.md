@@ -25,8 +25,8 @@
 
 ## Projects
 ### Amazon Recommendation System using GNN (_September 2023 - December 2023_)
-[Code](https://github.com/aiden200/ARS)
-[Poster](https://github.com/abdulmk787/abdulmk787.github.io/assets/55476136/fc6d3604-4423-4a5c-ab71-03500e9d8c5e)
+[Code](https://github.com/aiden200/ARS) |
+[Poster](https://github.com/abdulmk787/abdulmk787.github.io/assets/55476136/fc6d3604-4423-4a5c-ab71-03500e9d8c5e) |
 [Paper](https://github.com/aiden200/ARS/blob/main/ML567___Final_Project.pdf)
 -	Created a heterogeneous graph based product recommendation system using Pytorch Geometric achieving an RMSE of 1.01
 -	Compared multiple Convolutional layers such as SAGE and GAT while also providing explanations for each recommendation using Captum
