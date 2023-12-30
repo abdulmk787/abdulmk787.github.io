@@ -3,9 +3,9 @@
 #### Technical Skills: Python, SQL, AWS, Snowflake, MATLAB
 
 ## Education
-** M.S., Physics	| The University of Texas at Dallas (_December 2019_)	 			        		
+** M.S., Physics	| The University of Texas at Dallas (_December 2019_)	 **			        		
 - Courses : eee
-** B.S., Physics | The University of Texas at Dallas (_May 2017_)
+** B.S., Physics | The University of Texas at Dallas (_May 2017_) **
   - Courses: dasld
 
 ## Work Experience
