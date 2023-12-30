@@ -1,9 +1,9 @@
   # Data Scientist
 
-#### Technical Skills: Python, SQL, AWS, Snowflake, MATLAB
+#### Technical Skills: Python, Java, JavaScript, SQL, MongoDB, Tableau, Power BI, Apache Spark, Hadoop, PyTorch,PyTorch Geometric, TensorFlow, Scikit-Learn, NumPy, Pandas, NLTK, SpaCy, Keras
 
 ## Education
-**M.S., Physics	| The University of Texas at Dallas (_December 2019_)**			        		
+**M.S., Computer Science | University of Southern California (_June 2023 - Present_)**			        		
 - Courses : eee
 
 **B.S., Physics | The University of Texas at Dallas (_May 2017_)**
