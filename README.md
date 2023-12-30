@@ -1,4 +1,4 @@
-  # MS in Computer Science @ University of Southern California
+# MS in Computer Science @ University of Southern California
 
 #### Technical Skills: Python, Java, JavaScript, SQL, MongoDB, Tableau, Power BI, Apache Spark, Hadoop, PyTorch,PyTorch Geometric, TensorFlow, Scikit-Learn, NumPy, Pandas, NLTK, SpaCy, Keras
 
