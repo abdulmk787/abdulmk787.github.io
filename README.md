@@ -26,8 +26,8 @@
 
 -	Created a heterogeneous graph based product recommendation system using Pytorch Geometric achieving an RMSE of 1.01
 -	Compared multiple Convolutional layers such as SAGE and GAT while also providing explanations for each recommendation using Captum
-![Poster]![PXL_20231201_232530569 MP](https://github.com/abdulmk787/abdulmk787.github.io/assets/55476136/fc6d3604-4423-4a5c-ab71-03500e9d8c5e)
 [Code](https://github.com/aiden200/ARS)
+[Poster](https://github.com/abdulmk787/abdulmk787.github.io/assets/55476136/fc6d3604-4423-4a5c-ab71-03500e9d8c5e)
 
 
 ### Decoding Physical and Cognitive Impacts of Particulate Matter Concentrations at Ultra-Fine Scales
