@@ -5,6 +5,7 @@
 ## Education
 **M.S., Computer Science | University of Southern California | GPA : 4.0 ( _June 2023 - Present_ )**			        		
 - Courses : Analysis of Algorithms, Machine Learning, Applied NLP, Deep Learning, Multimodal Probabilistic Learning of Human Communication
+- Course Producer for CSCI 570 - Analysis of Algorithms (Spring '24) under Prof. Shawn Shamsian
 
 **B.Tech., Computer Science | PES University ( August 2019 - May 2023 )**
 - Courses: Data Analytics, Big Data, Design and Analysis of Algorithms, Data Structures, Cloud Computing, Machine Intelligence, Algorithms for Information Retrieval, Database Systems, Statistics for Data Science
