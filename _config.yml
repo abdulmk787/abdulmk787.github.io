@@ -1,8 +1,8 @@
 title: Abdul Mannan Kanji
-logo: /IMG_20190722_132532_941.jpg
+logo: /assets/IMG_20190722_132532_941.jpg
 #description: text below image
 show_downloads: false
-#theme: jekyll-theme-minimal
-remote_theme: pages-themes/midnight@v0.2.0
-plugins:
-- jekyll-remote-theme # add this line to the plugins list if you already have one
+theme: jekyll-theme-minimal
+# remote_theme: pages-themes/midnight@v0.2.0
+# plugins:
+# - jekyll-remote-theme # add this line to the plugins list if you already have one
