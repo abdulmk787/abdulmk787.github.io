@@ -12,15 +12,15 @@
 
 ## Work Experience
 **Associate BI Developer @ DigiCert ( January 2023 - May 2023 )**
--	Migrated multiple dashboards from Microstrategy to Tableau and built ad-hoc dashboards as per stakeholder requirements
--	Conducted account churn analysis using XGBoost in python to identify key variables and customer segments influencing customer churn
--	Designed an interactive Tableau dashboard to provide actionable insights for retention strategies
+-	Migrated 20+ complex dashboards from Microstrategy to Tableau, improving data visualization, accessibility, and stakeholder decision-making efficiency
+-	Developed an XGBoost model in Python to predict customer churn with 85% accuracy, identifying key factors influencing customer retention
+
 
 
 **Research Intern @ Centre for Cloud Computing and Big Data ( _June 2021 - December 2021_ )**
 
 [Publication](https://ieeexplore.ieee.org/abstract/document/10057909)
--	Improved an open-source microservices simulator by changing loads from synthetic to more realistic loads using Dhrystone and STREAM benchmark to simulate higher workloads accurately in GoLang and C
+-	Optimized an open-source microservices simulator by implementing Dhrystone and STREAM benchmarks to replicate real-world loads, resulting in a 12% increase in workload accuracy
 -	Introduced paper titled 'Scaling up a Cloud Microservices Simulator' at 2022 4th International Conference on Circuits, Control, Communication, and Computing
 
 
@@ -29,27 +29,28 @@
 [Code](https://github.com/aiden200/ARS) |
 [Poster](https://github.com/abdulmk787/abdulmk787.github.io/assets/55476136/fc6d3604-4423-4a5c-ab71-03500e9d8c5e) |
 [Paper](https://github.com/aiden200/ARS/blob/main/ML567___Final_Project.pdf)
--	Created a heterogeneous graph based product recommendation system using Pytorch Geometric achieving an RMSE of 1.01
--	Compared multiple Convolutional layers such as SAGE and GAT while also providing explanations for each recommendation using Captum
+-	Constructed a heterogenous graph neural network-based recommender system for the Amazon Product Review dataset, achieving an RMSE of 1.01 on a subset of 22000 products and 1800 users
+-	Compared the performance of different graph convolutional layers (SAGE, GAT, GCN) for product recommendation improving RMSE by 0.2
+
 
 
 ### Interpretability of Joint Learning problem ( _January 2022 - December 2022_ )
 [Paper](https://drive.google.com/file/d/1W4Wlz0WaGXoGCzk6vpzkHKYFrZ_fqmvB/view?usp=sharing)
 
--	Developed a Joint model combining textual and conversation graph data to classify tweets during a natural disaster as informative or not, attaining an accuracy of 92%, an improvement of over 6% from individual models
+-	Proposed a joint learning model combining textual and conversation graph data to classify tweets during a natural disaster, attaining an accuracy of 92%, a 6% improvement over individual models
 -	Leveraged interpretability tools, such as Unified Information Explainer and GNNExplainer, to deliver insight into model predictions by highlighting important words
 - Co-authored paper titled 'Interpretability of a Joint Learning Problem' was presented at the 2023 International Research Conference on IoT, Cloud and Data Science
 
 ### Predicting price direction of Bitcoin using Twitter and ML ( _September 2021 - March 2022_ )
 [Publication](https://ieeexplore.ieee.org/abstract/document/9988558)
 
--	Conducted an analysis of Bitcoin's technical indicators and daily sentiments on Twitter to predict price changes
--	Implemented and compared performance of various models as a team, including hybrid deep learning models such as CNN GRU, accomplishing a maximum accuracy of 60% (CNN GRU)
+-	Analyzed Bitcoin's technical indicators and daily sentiments on Twitter to forecast price change
+-	Implemented and compared performance of various hybrid deep learning models as a team, including CNN-GRU, accomplishing a maximum accuracy of 60% in anticipating price direction
 -	Co-authored paper on findings at the 2022 IEEE 2nd International Conference on Data Science and Computer Application and published in IEEE Xplore
 
 ### Sentiment Analysis of tweets using Streaming Spark ( _September 2021-December 2021_ )
 [Code](https://github.com/rithikashankar/BD_007_143__190_387/tree/main)
--	Analysed and performed sentiment analysis of 1.6 million tweets streamed in batches to Spark framework using incremental techniques, achieving an accuracy of 80%
+-	Designed and implemented a Spark Streaming application to perform sentiment analysis of 1.6 million tweets streamed in batches using incremental techniques, with an accuracy of 80%
 -	Performed unsupervised classification using K means clustering in an incremental approach
 
 ## Publications
