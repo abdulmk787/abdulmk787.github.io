@@ -1,6 +1,9 @@
 # MS in Computer Science @ University of Southern California
 
-#### Technical Skills: Python, Java, JavaScript, SQL, MongoDB, Tableau, Power BI, Apache Spark, Hadoop, PyTorch,PyTorch Geometric, TensorFlow, Scikit-Learn, NumPy, Pandas, NLTK, SpaCy, Keras
+## Skills 
+- **Programming Languages:** Python, Java, JavaScript, C, SQL
+- **Data Science and Analytics:** MongoDB, Tableau, Apache Spark, Hadoop, NumPy, Pandas
+- **Machine Learning and AI:** PyTorch,PyTorch Geometric, TensorFlow, Scikit-Learn, NLTK, SpaCy, Keras
 
 ## Education
 **M.S., Computer Science | University of Southern California | GPA : 4.0 ( _June 2023 - Present_ )**			        		
