@@ -1,4 +1,4 @@
-# MS in Computer Science @ University of Southern California
+![image](https://github.com/abdulmk787/abdulmk787.github.io/assets/55476136/7cf4ad34-b8d0-430f-83a2-9f995b455fe0)# MS in Computer Science @ University of Southern California
 
 ## Skills 
 - **Programming Languages:** Python, Java, JavaScript, C, SQL
@@ -28,14 +28,25 @@
 
 
 ## Projects
+
+### Automated Chess Commentary Generator 	( _January 2024 - May 2024_ )
+[Code](https://github.com/abdulmk787/ChessCommentary)
+-	Invented a novel methodology for chess commentary generation by fine-tuning Llama-3 with a custom curated dataset
+-	Generated insightful and contextually rich commentary by implementing prompt engineering with Llama-3 using FEN/UCI notations
+-	Utilized LLM judges to assess the quality and coherence of generated text
+
+
+### Leveraging Multimodal Data to Predict Job Performance ( _January 2024 - May 2024_ )
+- Developed predictive models leveraging multimodal data, including audio, physiological signals, and self-reported assessments, to forecast job performance in healthcare settings.
+- Implemented data preprocessing techniques to extract relevant features from diverse data sources, such as heart rate, sleep quality, and vocal characteristics, aligning with job performance evaluations.
+- Explored ensemble methods like Random Forest, XGBoost, and CatBoost, achieving promising results in capturing complex relationships between multimodal data and job performance indicators.
+
 ### Amazon Recommendation System using GNN ( _September 2023 - December 2023_ )
 [Code](https://github.com/aiden200/ARS) |
 [Poster](https://github.com/abdulmk787/abdulmk787.github.io/assets/55476136/fc6d3604-4423-4a5c-ab71-03500e9d8c5e) |
 [Paper](https://github.com/aiden200/ARS/blob/main/ML567___Final_Project.pdf)
 -	Constructed a heterogenous graph neural network-based recommender system for the Amazon Product Review dataset, achieving an RMSE of 1.01 on a subset of 22000 products and 1800 users
 -	Compared the performance of different graph convolutional layers (SAGE, GAT, GCN) for product recommendation improving RMSE by 0.2
-
-
 
 ### Interpretability of Joint Learning problem ( _January 2022 - December 2022_ )
 [Paper](https://drive.google.com/file/d/1W4Wlz0WaGXoGCzk6vpzkHKYFrZ_fqmvB/view?usp=sharing)
