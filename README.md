@@ -1,4 +1,3 @@
-![image](https://github.com/abdulmk787/abdulmk787.github.io/assets/55476136/7cf4ad34-b8d0-430f-83a2-9f995b455fe0)
 # MS in Computer Science @ University of Southern California
 
 ## Skills 
