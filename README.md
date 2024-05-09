@@ -3,7 +3,7 @@
 ## Skills 
 - **Programming Languages:** Python, Java, JavaScript, C, SQL
 - **Data Science and Analytics:** MongoDB, Tableau, Apache Spark, Hadoop, NumPy, Pandas
-- **Machine Learning and AI:** PyTorch,PyTorch Geometric, TensorFlow, Scikit-Learn, NLTK, SpaCy, Keras
+- **Machine Learning and AI:** PyTorch,PyTorch Geometric, TensorFlow, Scikit-Learn, NLTK, SpaCy, Keras, Transformers
 
 ## Education
 **M.S., Computer Science | University of Southern California | GPA : 4.0 ( _June 2023 - Present_ )**			        		
@@ -37,6 +37,8 @@
 
 
 ### Leveraging Multimodal Data to Predict Job Performance ( _January 2024 - May 2024_ )
+[Code](https://github.com/abdulmk787/CS535-Project)
+[Paper](https://github.com/abdulmk787/CS535-Project/blob/main/Paper.pdf)
 - Developed predictive models leveraging multimodal data, including audio, physiological signals, and self-reported assessments, to forecast job performance in healthcare settings.
 - Implemented data preprocessing techniques to extract relevant features from diverse data sources, such as heart rate, sleep quality, and vocal characteristics, aligning with job performance evaluations.
 - Explored ensemble methods like Random Forest, XGBoost, and CatBoost, achieving promising results in capturing complex relationships between multimodal data and job performance indicators.
@@ -49,7 +51,8 @@
 -	Compared the performance of different graph convolutional layers (SAGE, GAT, GCN) for product recommendation improving RMSE by 0.2
 
 ### Interpretability of Joint Learning problem ( _January 2022 - December 2022_ )
-[Paper](https://drive.google.com/file/d/1W4Wlz0WaGXoGCzk6vpzkHKYFrZ_fqmvB/view?usp=sharing)
+[Code](https://github.com/abdulmk787/Interpretability-of-Joint-Learning-Problem)
+[Paper](https://github.com/abdulmk787/Interpretability-of-Joint-Learning-Problem/blob/main/IRCICD_2023_22.pdf)
 
 -	Proposed a joint learning model combining textual and conversation graph data to classify tweets during a natural disaster, attaining an accuracy of 92%, a 6% improvement over individual models
 -	Leveraged interpretability tools, such as Unified Information Explainer and GNNExplainer, to deliver insight into model predictions by highlighting important words
@@ -57,6 +60,7 @@
 
 ### Predicting price direction of Bitcoin using Twitter and ML ( _September 2021 - March 2022_ )
 [Publication](https://ieeexplore.ieee.org/abstract/document/9988558)
+[Code](https://github.com/abdulmk787/twitterVsCryptocurrency)
 
 -	Analyzed Bitcoin's technical indicators and daily sentiments on Twitter to forecast price change
 -	Implemented and compared performance of various hybrid deep learning models as a team, including CNN-GRU, accomplishing a maximum accuracy of 60% in anticipating price direction
