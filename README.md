@@ -1,76 +1,65 @@
-# MS in Computer Science @ University of Southern California
+# Abdul Mannan Kanji
 
-## Skills 
-- **Programming Languages:** Python, Java, JavaScript, C, SQL
-- **Data Science and Analytics:** MongoDB, Tableau, Apache Spark, Hadoop, NumPy, Pandas
-- **Machine Learning and AI:** PyTorch,PyTorch Geometric, TensorFlow, Scikit-Learn, NLTK, SpaCy, Keras, Transformers
-
-## Education
-**M.S., Computer Science | University of Southern California | GPA : 4.0 ( _June 2023 - Present_ )**			        		
-- Courses : Analysis of Algorithms, Machine Learning, Applied NLP, Deep Learning, Multimodal Probabilistic Learning of Human Communication
-- Course Producer for CSCI 570 - Analysis of Algorithms (Spring '24) under Prof. Shawn Shamsian
-
-**B.Tech., Computer Science | PES University ( August 2019 - May 2023 )**
-- Courses: Data Analytics, Big Data, Design and Analysis of Algorithms, Data Structures, Cloud Computing, Machine Intelligence, Algorithms for Information Retrieval, Database Systems, Statistics for Data Science
+Software Engineer focused on ads growth, experimentation, data products, and applied ML.
 
 ## Work Experience
-**Associate BI Developer @ DigiCert ( January 2023 - May 2023 )**
--	Migrated 20+ complex dashboards from Microstrategy to Tableau, improving data visualization, accessibility, and stakeholder decision-making efficiency
--	Developed an XGBoost model in Python to predict customer churn with 85% accuracy, identifying key factors influencing customer retention
 
+### Software Engineer, Meta — Core Ads Growth Eng  
+**Feb 2025 – Present**
+- Shipped ads growth projects generating **$440M+ annual revenue**; achieved **"Exceeds Expectations"** rating.
+- Scaled daily revenue from **$18K to $693K** for leads optimization by implementing smart defaulting and signal expansion.
+- Launched a new product line for multi-destination messaging ads, doubling revenue adoption through signal integration.
+- Architected an AI automation tool for codebase migrations; adopted by 11+ teams to reduce manual developer effort.
+- Led experiment design and launch reviews with Data Science and Product teams; drove roadmapping via opportunity sizing and growth proposals.
 
+### Associate BI Data Analyst, DigiCert  
+**Jan 2023 – May 2023**
+- Migrated 20+ complex dashboards from Microstrategy to Tableau, improving visualization, accessibility, and stakeholder decision-making.
+- Developed an XGBoost model in Python to predict customer churn with 85% accuracy and identified key retention drivers using explainability methods.
+- Developed ETL pipelines in Pentaho to optimize data transformation and enable seamless Tableau analysis/reporting.
 
-**Research Intern @ Centre for Cloud Computing and Big Data ( _June 2021 - December 2021_ )**
+### Research Intern, Centre for Cloud Computing and Big Data  
+**Jun 2021 – Dec 2021**
+- Optimized an open-source microservices simulator by implementing Dhrystone and STREAM benchmarks, resulting in a 12% increase in workload accuracy.
+- Introduced paper titled *“Scaling up a Cloud Microservices Simulator”* at 2022 4th International Conference on Circuits, Control, Communication, and Computing.
 
-[Publication](https://ieeexplore.ieee.org/abstract/document/10057909)
--	Optimized an open-source microservices simulator by implementing Dhrystone and STREAM benchmarks to replicate real-world loads, resulting in a 12% increase in workload accuracy
--	Introduced paper titled 'Scaling up a Cloud Microservices Simulator' at 2022 4th International Conference on Circuits, Control, Communication, and Computing
+## Education
 
+### University of Southern California, Los Angeles  
+**Master of Science in Computer Science** — Grade: **4.0**  
+**Jun 2023 – Dec 2024**
+- Course Producer: Analysis of Algorithms (CS570 – Spring 2024)
 
-## Projects
+### PES University  
+**Bachelor’s of Technology in Computer Science** — Grade: **8.97**  
+**Aug 2019 – May 2023**
+- Relevant Coursework: Software Engineering, Big Data, Data Analytics, Analysis of Algorithms, Machine Learning, Deep Learning, Applied Natural Language Processing, Database Systems.
 
-### Automated Chess Commentary Generator 	( _January 2024 - May 2024_ )
-[Code](https://github.com/abdulmk787/ChessCommentary)
--	Invented a novel methodology for chess commentary generation by fine-tuning Llama-3 with a custom curated dataset
--	Generated insightful and contextually rich commentary by implementing prompt engineering with Llama-3 using FEN/UCI notations
--	Utilized LLM judges to assess the quality and coherence of generated text
+## Skills
 
+- **Programming Languages:** Python, JavaScript/TypeScript, Hack/PHP, Java, C, SQL
+- **Frontend & UI:** React, Relay, GraphQL, HTML/CSS
+- **Backend & Infrastructure:** REST APIs, Server-Side Pipelines, A/B Experimentation, Feature Gating, ETL
+- **Data & Analytics:** SQL, Pandas, NumPy, Spark, Hadoop, Tableau, MongoDB
+- **Machine Learning and AI:** PyTorch, TensorFlow, Scikit-Learn, LLMs, NLP (SpaCy, NLTK), GNNs
+- **Tools & Practices:** Git/Mercurial, CI/CD, Code Review, Agile, Technical Documentation
 
-### Leveraging Multimodal Data to Predict Job Performance ( _January 2024 - May 2024_ )
-[Code](https://github.com/abdulmk787/CS535-Project) |
-[Paper](https://github.com/abdulmk787/CS535-Project/blob/main/Paper.pdf)
-- Developed predictive models leveraging multimodal data, including audio, physiological signals, and self-reported assessments, to forecast job performance in healthcare settings.
-- Implemented data preprocessing techniques to extract relevant features from diverse data sources, such as heart rate, sleep quality, and vocal characteristics, aligning with job performance evaluations.
-- Explored ensemble methods like Random Forest, XGBoost, and CatBoost, achieving promising results in capturing complex relationships between multimodal data and job performance indicators.
+## Academic Projects
 
-### Amazon Recommendation System using GNN ( _September 2023 - December 2023_ )
-[Code](https://github.com/aiden200/ARS) |
-[Poster](https://github.com/abdulmk787/abdulmk787.github.io/assets/55476136/fc6d3604-4423-4a5c-ab71-03500e9d8c5e) |
-[Paper](https://github.com/aiden200/ARS/blob/main/ML567___Final_Project.pdf)
--	Constructed a heterogenous graph neural network-based recommender system for the Amazon Product Review dataset, achieving an RMSE of 1.01 on a subset of 22000 products and 1800 users
--	Compared the performance of different graph convolutional layers (SAGE, GAT, GCN) for product recommendation improving RMSE by 0.2
+### Automated Chess Commentary Generator
+- Generated contextually rich chess commentary by prompt engineering with Llama-3 using FEN/UCI notations.
+- Used LLM judges in a teacher-student architecture to assess output quality.
 
-### Interpretability of Joint Learning problem ( _January 2022 - December 2022_ )
-[Code](https://github.com/abdulmk787/Interpretability-of-Joint-Learning-Problem) |
-[Paper](https://github.com/abdulmk787/Interpretability-of-Joint-Learning-Problem/blob/main/IRCICD_2023_22.pdf)
+### Amazon Recommendation System using GNN
+- Built a heterogeneous graph neural network recommender system achieving RMSE of 1.01.
+- Compared SAGE, GAT, and GCN layers, improving RMSE by 0.2.
 
--	Proposed a joint learning model combining textual and conversation graph data to classify tweets during a natural disaster, attaining an accuracy of 92%, a 6% improvement over individual models
--	Leveraged interpretability tools, such as Unified Information Explainer and GNNExplainer, to deliver insight into model predictions by highlighting important words
-- Co-authored paper titled 'Interpretability of a Joint Learning Problem' was presented at the 2023 International Research Conference on IoT, Cloud and Data Science
-
-### Predicting price direction of Bitcoin using Twitter and ML ( _September 2021 - March 2022_ )
-[Publication](https://ieeexplore.ieee.org/abstract/document/9988558) |
-[Code](https://github.com/abdulmk787/twitterVsCryptocurrency)
-
--	Analyzed Bitcoin's technical indicators and daily sentiments on Twitter to forecast price change
--	Implemented and compared performance of various hybrid deep learning models as a team, including CNN-GRU, accomplishing a maximum accuracy of 60% in anticipating price direction
--	Co-authored paper on findings at the 2022 IEEE 2nd International Conference on Data Science and Computer Application and published in IEEE Xplore
-
-### Sentiment Analysis of tweets using Streaming Spark ( _September 2021-December 2021_ )
-[Code](https://github.com/rithikashankar/BD_007_143__190_387/tree/main)
--	Designed and implemented a Spark Streaming application to perform sentiment analysis of 1.6 million tweets streamed in batches using incremental techniques, with an accuracy of 80%
--	Performed unsupervised classification using K means clustering in an incremental approach
+### Interpretability of Joint Learning Problem
+- Proposed a joint learning model combining text and conversation graph data for tweet classification during natural disasters.
+- Achieved 92% accuracy (+6% over baselines); co-authored paper at IEEE IRCICD 2023.
 
 ## Publications
-1. A. M. Kanji, I. Chaudhary, R. L. Shankar and G. Srinivasa, "Predicting the Price Direction of Bitcoin Using Twitter Data and Machine Learning," 2022 IEEE 2nd International Conference on Data Science and Computer Application (ICDSCA), Dalian, China, 2022, pp. 46-52, doi: 10.1109/ICDSCA56264.2022.9988558.
-2. A. M. Kanji, I. Chaudhary, R. L. Shankar and S. Kalambur, "Scaling Up a Cloud Microservices Simulator," 2022 4th International Conference on Circuits, Control, Communication and Computing (I4C), Bangalore, India, 2022, pp. 367-371, doi: 10.1109/I4C57141.2022.10057909.
+
+- Kanji, Abdul Mannan, et al. *"Predicting the Price Direction of Bitcoin Using Twitter Data and Machine Learning."* 2022 IEEE 2nd International Conference on Data Science and Computer Application (ICDSCA). IEEE, 2022.
+- Kanji, Abdul Mannan, et al. *"Scaling Up a Cloud Microservices Simulator."* 2022 4th International Conference on Circuits, Control, Communication and Computing (I4C). IEEE, 2022.
+- Kanji, Abdul Mannan, et al. *"Interpretability of a Joint Learning Problem."* International Research Conference on IoT, Cloud, and Data Science. Cham: Springer Nature Switzerland, 2023.
