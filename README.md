@@ -7,7 +7,7 @@ Software Engineer focused on ads growth, experimentation, data products, and app
 ### Software Engineer, Meta — Core Ads Growth Eng  
 **Feb 2025 – Present**
 - Shipped ads growth projects generating **$440M+ annual revenue**; achieved **"Exceeds Expectations"** rating.
-- Scaled daily revenue from **$18K to $693K** for leads optimization by implementing smart defaulting and signal expansion.
+- Scaled daily revenue from **$18K to $950k** for leads optimization by implementing smart defaulting and signal expansion.
 - Launched a new product line for multi-destination messaging ads, doubling revenue adoption through signal integration.
 - Architected an AI automation tool for codebase migrations; adopted by 11+ teams to reduce manual developer effort.
 - Led experiment design and launch reviews with Data Science and Product teams; drove roadmapping via opportunity sizing and growth proposals.
