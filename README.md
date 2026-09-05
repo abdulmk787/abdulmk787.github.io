@@ -57,9 +57,10 @@ Software Engineer in Applied AI at Meta, working on reinforcement-learning envir
 
 ## Projects
 
-### Automated Chess Commentary Generator
-- Generated contextually rich chess commentary by prompt engineering with Llama-3 using FEN/UCI notations.
-- Used LLM judges in a teacher-student architecture to assess output quality.
+### Multimodal Job Performance Prediction (CS535)
+- Combined audio, physiological, and survey features with temporal aggregation and early fusion.
+- Compared single- and multimodal regression models.
+- [Code and project paper](https://github.com/abdulmk787/CS535-Project)
 
 ### Amazon Recommendation System using GNN
 - Built a heterogeneous graph neural network recommender system achieving RMSE of 1.01.
@@ -68,6 +69,15 @@ Software Engineer in Applied AI at Meta, working on reinforcement-learning envir
 ### Interpretability of Joint Learning Problem
 - Proposed a joint learning model combining text and conversation graph data for tweet classification during natural disasters.
 - Achieved 92% accuracy (+6% over baselines); co-authored a paper in the IRCICD 2023 proceedings, published by Springer in 2025.
+
+### Additional projects
+- Bitcoin Price Direction from Twitter + ML — technical indicators, sentiment, and CNN-GRU comparisons.
+- Streaming Sentiment Analysis with Spark — micro-batches, incremental classification, and clustering.
+- Interpretability of Toxic Conversations — reply-graph modeling.
+- Quiz Generator — revision questions from PDFs.
+- Big Data Coursework — MapReduce and Spark exercises.
+- Simple Chatbot — an earlier chatbot project.
+- Cloud Microservices Simulator — workload accuracy research described under experience.
 
 ## Publications
 
@@ -78,6 +88,6 @@ Software Engineer in Applied AI at Meta, working on reinforcement-learning envir
 
 ## Site maintenance
 
-This portfolio is a static GitHub Pages site. The page content lives in `index.html`, styling in `assets/styles.css`, and theme/reveal behavior in `assets/main.js`.
+A static GitHub Pages portfolio with a cobalt sidebar, responsive project rows, complete experience and education, skills, publications, and email contact. Content lives in `index.html`, styles in `assets/styles.css`, and active navigation in `assets/main.js`.
 
-Preview locally with `python3 -m http.server 8000`, then open `http://localhost:8000`. Keep the website and README aligned when experience changes. Current employer work should remain described at a public-safe level; do not add internal project names or unsupported metrics.
+Preview: `npm install`, then `npm run dev`. Deployment serves the static files directly; Vite is only needed for local development. Keep contact information free of telephone numbers. Do not add internal project names, private product details, unsupported metrics, or excluded projects.

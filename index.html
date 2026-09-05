@@ -1,174 +1,126 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Abdul Mannan Kanji — Applied AI at Meta</title>
-    <meta
-      name="description"
-      content="Abdul Mannan Kanji — Software Engineer in Applied AI at Meta. Reinforcement-learning environments, model post-training tasks, grounded AI products, and production engineering."
-    />
-    <link rel="canonical" href="https://abdulmk787.github.io/" />
-    <link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
-    <link
-      rel="preconnect"
-      href="https://fonts.googleapis.com"
-    />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="assets/styles.css" />
-  </head>
-  <body>
-    <div class="bg-orb bg-orb--one" aria-hidden="true"></div>
-    <div class="bg-orb bg-orb--two" aria-hidden="true"></div>
-    <div class="bg-orb bg-orb--three" aria-hidden="true"></div>
-    <div class="noise" aria-hidden="true"></div>
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Abdul Mannan Kanji — Applied AI at Meta</title>
+<meta name="description" content="Abdul Mannan Kanji, Software Engineer in Applied AI at Meta. Reinforcement-learning environments, model post-training tasks, grounded AI products, and production engineering.">
+<link rel="canonical" href="https://abdulmk787.github.io/">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/styles.css">
+</head><body>
+<a class="skip" href="#main">Skip to content</a>
+<aside class="sidebar">
+<a class="portrait-link" href="#home" aria-label="Home"><img class="portrait" src="assets/PXL_20231225_004001805.PORTRAIT.jpg" alt="Abdul Mannan Kanji" width="108" height="108"></a>
+<nav aria-label="Primary">
+<a href="#home" aria-current="location">Home</a><a href="#research">Current work</a><a href="#projects">Projects</a><a href="#experience">Experience</a><a href="#education">Education</a><a href="#skills">Skills</a><a href="#publications">Publications</a><a href="#contact">Contact</a>
+</nav>
+<div class="sidebar-note"><strong>Abdul Mannan Kanji</strong><span>Applied AI at Meta<br>Santa Clara, California</span></div>
+</aside>
+<main id="main">
+<header id="home" class="intro">
+<h1>Abdul Mannan Kanji</h1>
+<p class="role">Software Engineer · Applied AI at Meta</p>
+<p class="intro-text">I work on reinforcement-learning environments, verifiable agent tasks, and AI products grounded in real user data.</p>
+<div class="contact-links"><a href="mailto:kanjimannan@gmail.com">kanjimannan@gmail.com</a><a href="https://www.linkedin.com/in/abdulmk787/">LinkedIn</a><a href="https://github.com/abdulmk787">GitHub</a></div>
+</header>
+<section id="research" class="current-work">
+<div><p class="section-label">Current work</p><h2>Applied AI at Meta</h2><p class="date">June 2026 – Present</p>
+<p>I develop reinforcement-learning environments for model post-training, using software-engineering and tool-use tasks with outcomes that can be verified.</p>
+<p>I also explore realistic training data from product-development workflows and prototype task generation from pull requests. Alongside this, I build across iOS, AWS backend infrastructure, and AI recommendations grounded in structured user data.</p>
+</div>
+<aside class="career" aria-label="Career overview"><p class="section-label">Career</p><ol><li><p class="date">June 2026 – Present</p><h3>Applied AI, Meta</h3><p>RL environments, candidate training tasks, and grounding and verification for AI products.</p></li><li><p class="date">February 2025 – June 2026</p><h3>Ads Growth, Meta</h3><p>Shipped projects generating $440M+ in annual revenue and AI-assisted migration tooling adopted by 11+ teams.</p></li></ol></aside>
+</section>
+<section id="projects"><div class="section-heading"><h2>Projects</h2></div>
+<div class="projects">
+          <article class="project">
+            <div class="project__tag">Multimodal ML · Evaluation</div>
+            <h3><a href="https://github.com/abdulmk787/CS535-Project">Multimodal Job Performance Prediction</a></h3>
+            <p>Combined audio, physiological, and survey features from TILES-2019 using temporal aggregation and early fusion. Compared single- and multimodal regression models, including gradient-boosted trees and neural networks, using MSE, R², and concordance correlation.</p>
+            <ul class="project__stack"><li>Python</li><li>PyTorch</li><li>Multimodal fusion</li></ul>
+          </article>
 
-    <header class="nav" id="nav">
-      <a href="#top" class="nav__brand">
-        <span class="nav__mark">AK</span>
-        <span class="nav__name">Abdul Mannan Kanji</span>
-      </a>
-      <nav class="nav__links" aria-label="Primary">
-        <a href="#about">About</a>
-        <a href="#experience">Experience</a>
-        <a href="#projects">Projects</a>
-        <a href="#skills">Skills</a>
-        <a href="#publications">Publications</a>
-      </nav>
-      <div class="nav__actions">
-        <button
-          id="theme-toggle"
-          class="icon-btn"
-          type="button"
-          aria-label="Toggle color theme"
-          title="Toggle theme"
-        >
-          <svg class="icon icon--sun" viewBox="0 0 24 24" aria-hidden="true">
-            <circle cx="12" cy="12" r="4"></circle>
-            <path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"></path>
-          </svg>
-          <svg class="icon icon--moon" viewBox="0 0 24 24" aria-hidden="true">
-            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
-          </svg>
-        </button>
-        <a class="btn btn--ghost nav__resume" href="#contact">Get in touch</a>
-      </div>
-    </header>
-
-    <main id="top">
-      <!-- HERO -->
-      <section class="hero">
-        <div class="hero__inner">
-          <div class="hero__copy">
-            <span class="eyebrow">
-              <span class="eyebrow__dot"></span>
-              Available for interesting conversations
-            </span>
-            <h1 class="hero__title">
-              Hi, I'm <span class="gradient-text">Abdul Mannan</span>.
-              <br />
-              I build <span class="underline-accent">AI systems</span> grounded in real work.
-            </h1>
-            <p class="hero__lede">
-              Software Engineer in <strong>Applied AI at Meta</strong>. I develop
-              reinforcement-learning environments and tasks for model post-training,
-              explore training data from real engineering work, and build grounded AI products.
+          <article class="project">
+            
+            <div class="project__tag">Graph ML · Recommendations</div>
+            <h3>Amazon Recommendation System with GNNs</h3>
+            <p>
+              Built a heterogeneous graph neural network recommender reaching
+              <strong>RMSE 1.01</strong>. Compared SAGE, GAT, and GCN layers —
+              improving RMSE by 0.2 over baselines.
             </p>
-            <div class="hero__cta">
-              <a href="#experience" class="btn btn--primary">
-                See my work
-                <svg viewBox="0 0 24 24" class="btn__arrow" aria-hidden="true">
-                  <path d="M5 12h14M13 5l7 7-7 7"></path>
-                </svg>
-              </a>
-              <a href="#contact" class="btn btn--ghost">Contact</a>
-            </div>
-            <ul class="hero__stats">
-              <li>
-                <strong>$440M+</strong>
-                <span>annual revenue from prior Ads work</span>
-              </li>
-              <li>
-                <strong>11+</strong>
-                <span>teams adopted my migration tooling</span>
-              </li>
-              <li>
-                <strong>3</strong>
-                <span>peer-reviewed publications</span>
-              </li>
+            <ul class="project__stack">
+              <li>PyTorch</li>
+              <li>PyG</li>
+              <li>SAGE / GAT / GCN</li>
             </ul>
-          </div>
-          <div class="hero__portrait">
-            <div class="portrait-frame">
-              <img
-                src="assets/PXL_20231225_004001805.PORTRAIT.jpg"
-                alt="Portrait of Abdul Mannan Kanji"
-                loading="eager"
-              />
-              <div class="portrait-ring" aria-hidden="true"></div>
-            </div>
-            <div class="floating-card floating-card--meta">
-              <div class="floating-card__icon" aria-hidden="true">◆</div>
-              <div>
-                <div class="floating-card__title">Meta</div>
-                <div class="floating-card__sub">Applied AI</div>
-              </div>
-            </div>
-            <div class="floating-card floating-card--usc">
-              <div class="floating-card__icon" aria-hidden="true">★</div>
-              <div>
-                <div class="floating-card__title">MS CS · USC</div>
-                <div class="floating-card__sub">GPA 4.0</div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="scroll-hint" aria-hidden="true">
-          <span></span>
-        </div>
-      </section>
+          </article>
 
-      <!-- ABOUT -->
-      <section class="section" id="about">
-        <div class="section__head">
-          <span class="section__kicker">01 — About</span>
-          <h2 class="section__title">A quick introduction</h2>
-        </div>
-        <div class="about">
-          <p>
-            I work on <em>reinforcement-learning environments</em>,
-            <em>verifiable agent tasks</em>, and <em>grounded AI products</em>.
-            I am interested in how agents interact with tools and software systems,
-            and how to evaluate whether they achieved the intended outcome.
-          </p>
-          <p>
-            I moved into Applied AI at Meta in June 2026 after working in Core Ads
-            Growth Engineering. There, I shipped ads growth projects generating
-            $440M+ in annual revenue and developed AI-assisted code migration tooling
-            adopted by 11+ teams. My current work brings that product-engineering
-            experience to environments and data for model post-training.
-          </p>
-          <p>
-            Alongside environment development, I build across iOS, AWS backend
-            infrastructure, and AI recommendations grounded in structured user data.
-            I earned my MS in Computer Science at USC with a 4.0 GPA, served as a
-            Course Producer for Analysis of Algorithms, and co-authored research on
-            graph learning, cloud simulation, and financial prediction.
-          </p>
-        </div>
-      </section>
+          <article class="project">
+            
+            <div class="project__tag">Applied NLP · Research</div>
+            <h3><a href="https://github.com/abdulmk787/Interpretability-of-Joint-Learning-Problem">Interpretability of Joint Learning</a></h3>
+            <p>
+              Proposed a joint learning model combining text and conversation
+              graphs for disaster tweet classification.
+              <strong>92% accuracy</strong> (+6% over baselines). Used Unified
+              Information Explainer and GNNExplainer to surface the words
+              driving predictions. Co-authored a paper in the IRCICD 2023 proceedings, published by Springer in 2025.
+            </p>
+            <ul class="project__stack">
+              <li>NLP</li>
+              <li>Graph ML</li>
+              <li>Interpretability</li>
+            </ul>
+          </article>
 
-      <!-- EXPERIENCE -->
-      <section class="section" id="experience">
-        <div class="section__head">
-          <span class="section__kicker">02 — Experience</span>
-          <h2 class="section__title">Where I've worked</h2>
+          <article class="project">
+            
+            <div class="project__tag">Time Series · Sentiment</div>
+            <h3><a href="https://github.com/abdulmk787/twitterVsCryptocurrency">Bitcoin Price Direction from Twitter + ML</a></h3>
+            <p>
+              Combined Bitcoin technical indicators with daily Twitter sentiment
+              to forecast price-change direction. Built and compared hybrid
+              deep-learning models (CNN-GRU among them), reaching
+              <strong>60% accuracy</strong>. Co-authored paper at IEEE ICDSCA 2022.
+            </p>
+            <ul class="project__stack">
+              <li>CNN-GRU</li>
+              <li>Sentiment Analysis</li>
+              <li>Python</li>
+            </ul>
+          </article>
+
+          <article class="project">
+            
+            <div class="project__tag">Big Data · Streaming</div>
+            <h3>Streaming Sentiment Analysis with Spark</h3>
+            <p>
+              Designed a Spark Streaming pipeline that performs incremental
+              sentiment analysis over <strong>1.6M tweets</strong> in batched
+              micro-streams at <strong>80% accuracy</strong>, plus incremental
+              K-means clustering for unsupervised grouping.
+            </p>
+            <ul class="project__stack">
+              <li>Spark Streaming</li>
+              <li>Incremental ML</li>
+              <li>K-means</li>
+            </ul>
+          </article>
         </div>
-        <ol class="timeline">
+        <div class="project-archive">
+          <h3>More projects</h3>
+          <ul>
+            <li><a href="https://github.com/abdulmk787/Interpretability-of-toxic-conversations">Interpretability of Toxic Conversations</a> — reply-graph analysis and models for predicting conversational toxicity.</li>
+            <li><a href="https://github.com/abdulmk787/Polygon-Generator">Quiz Generator</a> — a web tool that creates revision questions from an uploaded PDF.</li>
+            <li><a href="https://github.com/abdulmk787/Big-Data-Assignments">Big Data Coursework</a> — MapReduce and Spark exercises.</li>
+            <li><a href="https://github.com/abdulmk787/ai-chatbot">Simple Chatbot</a> — an earlier chatbot project.</li>
+            <li>Cloud Microservices Simulator — research on workload accuracy using Dhrystone and STREAM benchmarks; see the publication below.</li>
+          </ul>
+        </div>
+</section>
+<section id="experience"><div class="section-heading"><h2>Experience</h2></div><ol class="timeline">
           <li class="timeline__item">
             <div class="timeline__dot"></div>
             <div class="timeline__card">
@@ -293,110 +245,43 @@
               </ul>
             </div>
           </li>
-        </ol>
-      </section>
-
-      <!-- PROJECTS -->
-      <section class="section" id="projects">
-        <div class="section__head">
-          <span class="section__kicker">03 — Projects</span>
-          <h2 class="section__title">Projects</h2>
-        </div>
-        <div class="projects">
-          <article class="project">
-            <div class="project__tag">Multimodal ML · Evaluation</div>
-            <h3><a href="https://github.com/abdulmk787/CS535-Project">Multimodal Job Performance Prediction</a></h3>
-            <p>Combined audio, physiological, and survey features from TILES-2019 using temporal aggregation and early fusion. Compared single- and multimodal regression models, including gradient-boosted trees and neural networks, using MSE, R², and concordance correlation.</p>
-            <ul class="project__stack"><li>Python</li><li>PyTorch</li><li>Multimodal fusion</li></ul>
-          </article>
-
-          <article class="project">
-            <div class="project__glow" aria-hidden="true"></div>
-            <div class="project__tag">Graph ML · Recommendations</div>
-            <h3>Amazon Recommendation System with GNNs</h3>
-            <p>
-              Built a heterogeneous graph neural network recommender reaching
-              <strong>RMSE 1.01</strong>. Compared SAGE, GAT, and GCN layers —
-              improving RMSE by 0.2 over baselines.
+        </ol></section>
+<section id="education"><div class="section-heading"><h2>Education</h2></div><div class="education">
+          <article class="edu-card">
+            <div class="edu-card__top">
+              <h3>University of Southern California</h3>
+              <span class="chip chip--accent">GPA 4.0</span>
+            </div>
+            <p class="edu-card__degree">
+              M.S. in Computer Science · Los Angeles
             </p>
-            <ul class="project__stack">
-              <li>PyTorch</li>
-              <li>PyG</li>
-              <li>SAGE / GAT / GCN</li>
-            </ul>
+            <p class="edu-card__meta">Jun 2023 – Dec 2024</p>
+            <div class="edu-card__role">
+              <span class="edu-card__role-tag">Course Producer</span>
+              <strong>CS570 — Analysis of Algorithms</strong>
+              <span class="edu-card__role-meta">Spring 2024 · ~600 students</span>
+              <ul>
+                <li>Prepped homework questions and exam papers alongside a cohort of TAs and course producers.</li>
+                <li>Graded assignments and exams, calibrating rubrics for consistency across graders.</li>
+              </ul>
+            </div>
           </article>
-
-          <article class="project">
-            <div class="project__glow" aria-hidden="true"></div>
-            <div class="project__tag">Applied NLP · Research</div>
-            <h3>Interpretability of Joint Learning</h3>
-            <p>
-              Proposed a joint learning model combining text and conversation
-              graphs for disaster tweet classification.
-              <strong>92% accuracy</strong> (+6% over baselines). Used Unified
-              Information Explainer and GNNExplainer to surface the words
-              driving predictions. Co-authored a paper in the IRCICD 2023 proceedings, published by Springer in 2025.
+          <article class="edu-card">
+            <div class="edu-card__top">
+              <h3>PES University</h3>
+              <span class="chip">GPA 8.97/10</span>
+            </div>
+            <p class="edu-card__degree">
+              B.Tech in Computer Science · Bengaluru
             </p>
-            <ul class="project__stack">
-              <li>NLP</li>
-              <li>Graph ML</li>
-              <li>Interpretability</li>
-            </ul>
-          </article>
-
-          <article class="project">
-            <div class="project__glow" aria-hidden="true"></div>
-            <div class="project__tag">Time Series · Sentiment</div>
-            <h3>Bitcoin Price Direction from Twitter + ML</h3>
+            <p class="edu-card__meta">Aug 2019 – May 2023</p>
             <p>
-              Combined Bitcoin technical indicators with daily Twitter sentiment
-              to forecast price-change direction. Built and compared hybrid
-              deep-learning models (CNN-GRU among them), reaching
-              <strong>60% accuracy</strong>. Co-authored paper at IEEE ICDSCA 2022.
+              Coursework: Software Engineering, Big Data, Analysis of
+              Algorithms, ML, Deep Learning, Applied NLP, DB Systems.
             </p>
-            <ul class="project__stack">
-              <li>CNN-GRU</li>
-              <li>Sentiment Analysis</li>
-              <li>Python</li>
-            </ul>
           </article>
-
-          <article class="project">
-            <div class="project__glow" aria-hidden="true"></div>
-            <div class="project__tag">Big Data · Streaming</div>
-            <h3>Streaming Sentiment Analysis with Spark</h3>
-            <p>
-              Designed a Spark Streaming pipeline that performs incremental
-              sentiment analysis over <strong>1.6M tweets</strong> in batched
-              micro-streams at <strong>80% accuracy</strong>, plus incremental
-              K-means clustering for unsupervised grouping.
-            </p>
-            <ul class="project__stack">
-              <li>Spark Streaming</li>
-              <li>Incremental ML</li>
-              <li>K-means</li>
-            </ul>
-          </article>
-        </div>
-        <div class="project-archive">
-          <h3>More projects</h3>
-          <ul>
-            <li><a href="https://github.com/abdulmk787/Interpretability-of-toxic-conversations">Interpretability of Toxic Conversations</a> — reply-graph analysis and models for predicting conversational toxicity.</li>
-            <li><a href="https://github.com/abdulmk787/Polygon-Generator">Quiz Generator</a> — a web tool that creates revision questions from an uploaded PDF.</li>
-            <li><a href="https://github.com/abdulmk787/Big-Data-Assignments">Big Data Coursework</a> — MapReduce and Spark exercises.</li>
-            <li><a href="https://github.com/abdulmk787/ai-chatbot">Simple Chatbot</a> — an earlier chatbot project.</li>
-            <li>Cloud Microservices Simulator — research on workload accuracy using Dhrystone and STREAM benchmarks; see the publication below.</li>
-          </ul>
-        </div>
-      </section>
-
-      <!-- SKILLS -->
-      <section class="section" id="skills">
-        <div class="section__head">
-          <span class="section__kicker">04 — Toolkit</span>
-          <h2 class="section__title">What I reach for</h2>
-        </div>
-        <div class="skills">
+        </div></section>
+<section id="skills"><div class="section-heading"><h2>Skills</h2></div><div class="skills">
           <div class="skill-card">
             <h3>AI &amp; Evaluation</h3>
             <ul>
@@ -460,217 +345,14 @@
               <li>SQL</li>
             </ul>
           </div>
-        </div>
-      </section>
-
-      <!-- EDUCATION -->
-      <section class="section" id="education">
-        <div class="section__head">
-          <span class="section__kicker">05 — Education</span>
-          <h2 class="section__title">School</h2>
-        </div>
-        <div class="education">
-          <article class="edu-card">
-            <div class="edu-card__top">
-              <h3>University of Southern California</h3>
-              <span class="chip chip--accent">GPA 4.0</span>
-            </div>
-            <p class="edu-card__degree">
-              M.S. in Computer Science · Los Angeles
-            </p>
-            <p class="edu-card__meta">Jun 2023 – Dec 2024</p>
-            <div class="edu-card__role">
-              <span class="edu-card__role-tag">Course Producer</span>
-              <strong>CS570 — Analysis of Algorithms</strong>
-              <span class="edu-card__role-meta">Spring 2024 · ~600 students</span>
-              <ul>
-                <li>Prepped homework questions and exam papers alongside a cohort of TAs and course producers.</li>
-                <li>Graded assignments and exams, calibrating rubrics for consistency across graders.</li>
-              </ul>
-            </div>
-          </article>
-          <article class="edu-card">
-            <div class="edu-card__top">
-              <h3>PES University</h3>
-              <span class="chip">GPA 8.97/10</span>
-            </div>
-            <p class="edu-card__degree">
-              B.Tech in Computer Science · Bengaluru
-            </p>
-            <p class="edu-card__meta">Aug 2019 – May 2023</p>
-            <p>
-              Coursework: Software Engineering, Big Data, Analysis of
-              Algorithms, ML, Deep Learning, Applied NLP, DB Systems.
-            </p>
-          </article>
-        </div>
-      </section>
-
-      <!-- PUBLICATIONS -->
-      <section class="section" id="publications">
-        <div class="section__head section__head--with-action">
-          <div>
-            <span class="section__kicker">06 — Publications</span>
-            <h2 class="section__title">Papers I've co-authored</h2>
-          </div>
-          <a
-            class="btn btn--ghost"
-            href="https://scholar.google.com/citations?user=cUIa_fkAAAAJ&hl=en"
-            target="_blank"
-            rel="noopener"
-          >
-            Google Scholar
-            <svg viewBox="0 0 24 24" class="btn__arrow" aria-hidden="true">
-              <path d="M7 17L17 7M9 7h8v8"></path>
-            </svg>
-          </a>
-        </div>
-        <ul class="publications">
-          <li>
-            <span class="publications__num">01</span>
-            <div>
-              <h3>
-                <a
-                  href="https://ieeexplore.ieee.org/abstract/document/9988558"
-                  target="_blank"
-                  rel="noopener"
-                  >Predicting the Price Direction of Bitcoin Using Twitter Data
-                  and Machine Learning</a
-                >
-              </h3>
-              <p>
-                IEEE 2nd Int'l Conference on Data Science and Computer
-                Application (ICDSCA), 2022.
-              </p>
-            </div>
-            <a
-              class="publications__link"
-              href="https://ieeexplore.ieee.org/abstract/document/9988558"
-              target="_blank"
-              rel="noopener"
-              aria-label="Read paper on IEEE Xplore"
-            >
-              <svg viewBox="0 0 24 24" aria-hidden="true">
-                <path d="M7 17L17 7M9 7h8v8"></path>
-              </svg>
-            </a>
-          </li>
-          <li>
-            <span class="publications__num">02</span>
-            <div>
-              <h3>
-                <a
-                  href="https://ieeexplore.ieee.org/abstract/document/10057909"
-                  target="_blank"
-                  rel="noopener"
-                  >Scaling Up a Cloud Microservices Simulator</a
-                >
-              </h3>
-              <p>
-                4th Int'l Conference on Circuits, Control, Communication and
-                Computing (I4C), 2022.
-              </p>
-            </div>
-            <a
-              class="publications__link"
-              href="https://ieeexplore.ieee.org/abstract/document/10057909"
-              target="_blank"
-              rel="noopener"
-              aria-label="Read paper on IEEE Xplore"
-            >
-              <svg viewBox="0 0 24 24" aria-hidden="true">
-                <path d="M7 17L17 7M9 7h8v8"></path>
-              </svg>
-            </a>
-          </li>
-          <li>
-            <span class="publications__num">03</span>
-            <div>
-              <h3>
-                <a
-                  href="https://link.springer.com/chapter/10.1007/978-3-031-88237-1_2"
-                  target="_blank"
-                  rel="noopener"
-                  >Interpretability of a Joint Learning Problem</a
-                >
-              </h3>
-              <p>
-                Int'l Research Conference on IoT, Cloud, and Data Science.
-                Springer Nature, 2025 (IRCICD 2023 proceedings).
-              </p>
-            </div>
-            <a
-              class="publications__link"
-              href="https://link.springer.com/chapter/10.1007/978-3-031-88237-1_2"
-              target="_blank"
-              rel="noopener"
-              aria-label="Read paper on SpringerLink"
-            >
-              <svg viewBox="0 0 24 24" aria-hidden="true">
-                <path d="M7 17L17 7M9 7h8v8"></path>
-              </svg>
-            </a>
-          </li>
-        </ul>
-      </section>
-
-      <!-- CONTACT -->
-      <section class="section section--contact" id="contact">
-        <div class="contact-card">
-          <div class="contact-card__content">
-            <span class="section__kicker">07 — Say hi</span>
-            <h2 class="contact-card__title">
-              Let's build something <span class="gradient-text">worth measuring</span>.
-            </h2>
-            <p>
-              I'm always up for thoughtful conversations about AI agents,
-              post-training environments, grounded AI products, and software
-              engineering. The fastest way to reach me is via email.
-            </p>
-            <div class="contact-card__actions">
-              <a
-                class="btn btn--primary"
-                href="mailto:kanjimannan@gmail.com"
-              >
-                Email me
-                <svg viewBox="0 0 24 24" class="btn__arrow" aria-hidden="true">
-                  <path d="M5 12h14M13 5l7 7-7 7"></path>
-                </svg>
-              </a>
-              <a
-                class="btn btn--ghost"
-                href="https://github.com/abdulmk787"
-                target="_blank"
-                rel="noopener"
-                >GitHub</a
-              >
-              <a
-                class="btn btn--ghost"
-                href="https://www.linkedin.com/in/abdulmk787/"
-                target="_blank"
-                rel="noopener"
-                >LinkedIn</a
-              >
-              <a
-                class="btn btn--ghost"
-                href="https://scholar.google.com/citations?user=cUIa_fkAAAAJ&hl=en"
-                target="_blank"
-                rel="noopener"
-                >Google Scholar</a
-              >
-            </div>
-          </div>
-        </div>
-      </section>
-    </main>
-
-    <footer class="footer">
-      <div>© <span id="year"></span> Abdul Mannan Kanji</div>
-      <div class="footer__sub">
-        Built with HTML, CSS, and a bit of late-night taste.
-      </div>
-    </footer>
-
-    <script src="assets/main.js" defer></script>
-  </body>
-</html>
+        </div></section>
+<section id="publications"><div class="section-heading"><h2>Publications</h2><a href="https://scholar.google.com/citations?user=cUIa_fkAAAAJ&amp;hl=en">Google Scholar</a></div>
+<ol class="papers">
+<li><h3><a href="https://ieeexplore.ieee.org/abstract/document/9988558">Predicting the Price Direction of Bitcoin Using Twitter Data and Machine Learning</a></h3><p>Abdul Mannan Kanji et al. · IEEE ICDSCA, 2022</p></li>
+<li><h3><a href="https://ieeexplore.ieee.org/abstract/document/10057909">Scaling Up a Cloud Microservices Simulator</a></h3><p>Abdul Mannan Kanji et al. · IEEE I4C, 2022</p></li>
+<li><h3><a href="https://link.springer.com/chapter/10.1007/978-3-031-88237-1_2">Interpretability of a Joint Learning Problem</a></h3><p>Abdul Mannan Kanji et al. · Springer, 2025 · IRCICD 2023 proceedings</p></li>
+</ol></section>
+<section id="contact"><h2>Get in touch</h2><p>For conversations about AI agents, post-training environments, grounded AI products, or software engineering.</p>
+<div class="contact-links"><a href="mailto:kanjimannan@gmail.com">kanjimannan@gmail.com</a><a href="https://www.linkedin.com/in/abdulmk787/">LinkedIn</a><a href="https://github.com/abdulmk787">GitHub</a></div></section>
+<footer>© <span id="year">2026</span> Abdul Mannan Kanji · Santa Clara, CA, USA</footer>
+</main><script src="assets/main.js" defer></script></body></html>

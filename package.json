@@ -1,0 +1,11 @@
+{
+  "name": "abdul-mannan-portfolio",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "vite"
+  },
+  "devDependencies": {
+    "vite": "^7.0.0"
+  }
+}
