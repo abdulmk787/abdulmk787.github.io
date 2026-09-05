@@ -8,7 +8,7 @@ Software Engineer in Applied AI at Meta, working on reinforcement-learning envir
 
 ### Software Engineer, Meta — Applied AI
 **Jun 2026 – Present**
-- Develop reinforcement-learning environments for model post-training, with verifiable software-engineering and tool-use tasks.
+- Develop reinforcement-learning environments supporting post-training for Meta’s Avocado and Watermelon models, with verifiable software-engineering and tool-use tasks.
 - Explore converting real product-development workflows into candidate RL training and evaluation tasks.
 - Prototype automated task generation from pull requests and other software-development artifacts.
 - Build an AI-native mobile application across iOS, AWS backend infrastructure, and an AI chat and recommendation layer.
