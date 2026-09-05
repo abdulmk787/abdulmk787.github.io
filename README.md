@@ -1,14 +1,24 @@
 # Abdul Mannan Kanji
 
-Software Engineer focused on ads growth, experimentation, data products, and applied ML.
+Software Engineer in Applied AI at Meta, working on reinforcement-learning environments, model post-training tasks, grounded AI products, and production engineering.
+
+[Portfolio](https://abdulmk787.github.io/)
 
 ## Work Experience
 
-### Software Engineer, Meta — Core Ads Growth Eng  
-**Feb 2025 – Present**
-- Shipped ads growth projects generating **$440M+ annual revenue**; achieved **"Exceeds Expectations"** rating.
+### Software Engineer, Meta — Applied AI
+**Jun 2026 – Present**
+- Develop reinforcement-learning environments for model post-training, with verifiable software-engineering and tool-use tasks.
+- Explore converting real product-development workflows into candidate RL training and evaluation tasks.
+- Prototype automated task generation from pull requests and other software-development artifacts.
+- Build an AI-native mobile application across iOS, AWS backend infrastructure, and an AI chat and recommendation layer.
+- Implement grounding and verification mechanisms to validate recommended entities against structured user-owned data.
+
+### Software Engineer, Meta — Core Ads Growth Engineering
+**Feb 2025 – Jun 2026**
+- Shipped ads growth projects generating **$440M+ annual revenue**.
 - Scaled daily revenue from **$18K to $950k** for leads optimization by implementing smart defaulting and signal expansion.
-- Launched a new product line for multi-destination messaging ads, doubling revenue adoption through signal integration.
+- Launched a new product line for multi-destination messaging ads through signal integration.
 - Architected an AI automation tool for codebase migrations; adopted by 11+ teams to reduce manual developer effort.
 - Led experiment design and launch reviews with Data Science and Product teams; drove roadmapping via opportunity sizing and growth proposals.
 
@@ -38,13 +48,14 @@ Software Engineer focused on ads growth, experimentation, data products, and app
 ## Skills
 
 - **Programming Languages:** Python, JavaScript/TypeScript, Hack/PHP, Java, C, SQL
-- **Frontend & UI:** React, Relay, GraphQL, HTML/CSS
-- **Backend & Infrastructure:** REST APIs, Server-Side Pipelines, A/B Experimentation, Feature Gating, ETL
+- **AI Environments & Evaluation:** RL environments, post-training tasks, AI agents, model evaluation, grounded generation, entity validation
+- **Frontend & Mobile:** iOS, React, Relay, GraphQL, HTML/CSS
+- **Backend & Infrastructure:** AWS, REST APIs, Server-Side Pipelines, A/B Experimentation, Feature Gating, ETL
 - **Data & Analytics:** SQL, Pandas, NumPy, Spark, Hadoop, Tableau, MongoDB
 - **Machine Learning and AI:** PyTorch, TensorFlow, Scikit-Learn, LLMs, NLP (SpaCy, NLTK), GNNs
 - **Tools & Practices:** Git/Mercurial, CI/CD, Code Review, Agile, Technical Documentation
 
-## Academic Projects
+## Projects
 
 ### Automated Chess Commentary Generator
 - Generated contextually rich chess commentary by prompt engineering with Llama-3 using FEN/UCI notations.
@@ -56,10 +67,17 @@ Software Engineer focused on ads growth, experimentation, data products, and app
 
 ### Interpretability of Joint Learning Problem
 - Proposed a joint learning model combining text and conversation graph data for tweet classification during natural disasters.
-- Achieved 92% accuracy (+6% over baselines); co-authored paper at IEEE IRCICD 2023.
+- Achieved 92% accuracy (+6% over baselines); co-authored a paper in the IRCICD 2023 proceedings, published by Springer in 2025.
 
 ## Publications
 
 - Kanji, Abdul Mannan, et al. *"Predicting the Price Direction of Bitcoin Using Twitter Data and Machine Learning."* 2022 IEEE 2nd International Conference on Data Science and Computer Application (ICDSCA). IEEE, 2022.
 - Kanji, Abdul Mannan, et al. *"Scaling Up a Cloud Microservices Simulator."* 2022 4th International Conference on Circuits, Control, Communication and Computing (I4C). IEEE, 2022.
-- Kanji, Abdul Mannan, et al. *"Interpretability of a Joint Learning Problem."* International Research Conference on IoT, Cloud, and Data Science. Cham: Springer Nature Switzerland, 2023.
+- Kanji, Abdul Mannan, et al. *"Interpretability of a Joint Learning Problem."* International Research Conference on IoT, Cloud, and Data Science. IRCICD 2023 proceedings. Cham: Springer Nature Switzerland, 2025. [Publisher record](https://link.springer.com/chapter/10.1007/978-3-031-88237-1_2).
+
+
+## Site maintenance
+
+This portfolio is a static GitHub Pages site. The page content lives in `index.html`, styling in `assets/styles.css`, and theme/reveal behavior in `assets/main.js`.
+
+Preview locally with `python3 -m http.server 8000`, then open `http://localhost:8000`. Keep the website and README aligned when experience changes. Current employer work should remain described at a public-safe level; do not add internal project names or unsupported metrics.

@@ -430,10 +430,11 @@ img {
 .hero__portrait {
   position: relative;
   justify-self: center;
+  width: min(380px, 100%);
 }
 .portrait-frame {
   position: relative;
-  width: min(380px, 90vw);
+  width: 100%;
   aspect-ratio: 4 / 5;
   border-radius: 28px;
   overflow: hidden;
@@ -1128,5 +1129,36 @@ img {
   }
   html {
     scroll-behavior: auto;
+  }
+}
+
+/* Keep section links visible below the sticky header. */
+.section {
+  scroll-margin-top: 100px;
+}
+
+/* Preserve navigation spacing on tablet-sized screens. */
+@media (min-width: 761px) and (max-width: 1050px) {
+  .nav {
+    padding-inline: 20px;
+    gap: 14px;
+  }
+  .nav__links {
+    gap: 12px;
+  }
+  .nav__resume {
+    display: none;
+  }
+}
+
+@media (max-width: 400px) {
+  .hero, .section {
+    padding-inline: 20px;
+  }
+  .timeline__item {
+    padding-left: 28px;
+  }
+  .timeline__card {
+    padding: 20px 18px;
   }
 }
